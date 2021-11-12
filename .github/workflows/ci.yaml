@@ -16,4 +16,5 @@ jobs:
       - run: npm run docs
       - uses: JustinBeckwith/linkinator-action@v1
         with:
+          verbosity: DEBUG
           paths: docs/
